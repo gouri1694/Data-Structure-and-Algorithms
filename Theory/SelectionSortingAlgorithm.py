@@ -2,7 +2,7 @@
 # Comparison: Quick, merge,Bubble, Selection, Insertion, Heap; Minimum time complexity: O(nlogn)
 # Non-comparison based: Counting, Bucket, Radix; Minimum time complexity: O(n)
 # O(n)< O(nlogn)
-# function to sort an array of integers using selection sort
+# function to sort an array of integers using selection sort (O(n^2)
 def selection_sort(arr):
     # loop through the array
     for i in range(len(arr)):
