@@ -1,10 +1,10 @@
 # Bubble sort is a simple sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 # # function to sort an array of integers using bubble sort (O(n^2))
 def bubble_sort(arr):
-    # loop through the array till end-1
+    # loop through the array till end-1 coz we need to compare the last element with the previous element
     for i in range(len(arr)-1):
-        # loop through the array again till end-i-1
-        for j in range(len(arr) - i-1):
+        # loop through the array again till end-i-1 coz we don't need to swap the last element with itself, last i element is already sorted and we don't need to swap it
+        for j in range(len(arr)-i-1):
             # if the current element is greater than the next element
             if arr[j] > arr[j + 1]:
                 # swap the elements
