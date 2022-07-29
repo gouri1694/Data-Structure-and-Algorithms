@@ -1,4 +1,4 @@
-# Data-Structure-and-Algorithms-Projects
+# Data-Structure-and-Algorithms
 Following Projects will be uploaded soon!
 - URL Shortener
 - Build Sudoku Solver
